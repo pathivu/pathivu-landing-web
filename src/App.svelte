@@ -1,5 +1,5 @@
 <script>
-	export let name;
+	
 	import MainLanding from './sections/MainLanding.svelte';
 	import WhatWeOffer from './sections/WhatWeOffer.svelte';
 	import JoinTheCommunity from './sections/JoinTheCommunity.svelte';

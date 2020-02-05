@@ -1,7 +1,5 @@
 <script>
 
-    export let spacingSize;
-
 </script>
 
 <style>
