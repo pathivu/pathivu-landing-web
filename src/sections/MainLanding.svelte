@@ -93,7 +93,7 @@
 
         .left{
             width: 86vw;
-            height: 80%;
+            height: auto;
             top: 25%;
             left: 0px;
             margin-left: 0px;
