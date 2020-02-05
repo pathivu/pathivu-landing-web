@@ -20,6 +20,12 @@
         color: #00A8B0;
     }
 
+    @media (max-width:758px){
+        div{
+            font-size: 20px;
+        }
+    }
+
 </style>
 
 <div>{beforeMarkedValue}<span>{markedValue}</span>{afterMarkedValue}</div>

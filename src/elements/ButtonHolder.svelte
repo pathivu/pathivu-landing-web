@@ -34,6 +34,17 @@
         margin-left: 10px;
     }
 
+    @media(max-width:768px){
+        div{
+            font-size: 14px;
+        }
+
+        img{
+            height: 12px;
+            top:1px;
+        }
+    }
+
 </style>
 
 <div style="--buttonBackground:{backgroundColor};--textColor:{textColor};">
