@@ -20,8 +20,8 @@
         display: inline-block;
         border-radius: 4px;
         font-size: 18px;
-        font-family: 'Manrope',sans-serif;
-        font-weight: 200;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 300;
         letter-spacing: 1.2px;
         cursor: pointer;
     }
@@ -49,7 +49,7 @@
 
 <div style="--buttonBackground:{backgroundColor};--textColor:{textColor};">
 
-    {buttonText} <img src="{buttonImage}" alt="">
+    {buttonText} {#if buttonImage!=""}<img src="{buttonImage}" alt="">{/if}
     
 </div>
 

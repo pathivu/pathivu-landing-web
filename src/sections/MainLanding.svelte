@@ -136,7 +136,7 @@
 
             <Spacer></Spacer>
         
-            <LargeHeading beforeMarkedValue="The only" markedValue=" logging" afterMarkedValue=" platform you need"></LargeHeading>
+            <LargeHeading beforeMarkedValue="The only" markedValue=" logging" afterMarkedValue=" platform you need" textAlign="left"></LargeHeading>
 
             <Spacer></Spacer>
 

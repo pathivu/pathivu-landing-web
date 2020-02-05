@@ -3,6 +3,7 @@
     export let beforeMarkedValue;
     export let markedValue;
     export let afterMarkedValue;
+    export let textAlign;
 
 </script>
 
@@ -10,10 +11,12 @@
     
     div{
         font-size: 3.3vw;
-        font-family: 'Manrope',sans-serif;
-        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
         letter-spacing: 4.2px;
         color: #ffffff;
+        line-height: 80px;
+        text-align: var(--textAlign);
     }
 
     span{
@@ -23,10 +26,11 @@
     @media (max-width:758px){
         div{
             font-size: 20px;
+            line-height: 40px;
         }
     }
 
 </style>
 
-<div>{beforeMarkedValue}<span>{markedValue}</span>{afterMarkedValue}</div>
+<div style="--textAlign:{textAlign}">{beforeMarkedValue}<span>{markedValue}</span>{afterMarkedValue}</div>
 
