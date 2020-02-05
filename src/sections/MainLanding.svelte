@@ -94,7 +94,7 @@
         .left{
             width: 86vw;
             height: auto;
-            top: 25%;
+            top: 30%;
             left: 0px;
             margin-left: 0px;
             padding-left: 7vw;
@@ -109,6 +109,10 @@
         .holder{
             transform: none;
             top: 40px;
+        }
+
+        img{
+            height: 45px;
         }
 
         .laptop-landing{
