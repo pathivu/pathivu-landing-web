@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Path@SVG</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-1013.000000, -996.000000)" fill="#00A8B0" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(891.000000, 993.000000)">
+                <path d="M123,12.5925 L134.17,12.5925 L129.29,17.4725 C128.9,17.8625 128.9,18.5025 129.29,18.8925 C129.68,19.2825 130.31,19.2825 130.7,18.8925 L137.29,12.3025 C137.68,11.9125 137.68,11.2825 137.29,10.8925 L130.71,4.2925 C130.32,3.9025 129.69,3.9025 129.3,4.2925 C128.91,4.6825 128.91,5.3125 129.3,5.7025 L134.17,10.5925 L123,10.5925 C122.45,10.5925 122,11.0425 122,11.5925 C122,12.1425 122.45,12.5925 123,12.5925 Z" id="Path" transform="translate(129.791250, 11.592500) rotate(90.000000) translate(-129.791250, -11.592500) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
