@@ -4,6 +4,13 @@
     import ButtonHolder from '../elements/ButtonHolder.svelte';
     import Paragraph from '../elements/Paragraph.svelte';
     import Spacer from '../elements/Spacer.svelte';
+    import InformationCard from '../elements/InformationCard.svelte';
+
+    let allFeatures = false;
+
+    function allFeaturesToggle(event) {
+        allFeatures = !allFeatures;
+    }
 
 </script>
 
@@ -24,11 +31,22 @@
         text-align: center;
     }
 
+    .card{
+        margin-left: 40px;
+        margin-right: 40px;
+        display: inline-block;
+    }
+
+    .cards-holder{
+        text-align: center;
+    }
+
     @media(max-width:1200px){
 
         .button{
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            margin-right: 0px;
         }
 
     }
@@ -37,7 +55,8 @@
 
         .button{
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            margin-right: 0px;
         }
 
     }
@@ -45,7 +64,7 @@
 </style>
 
 
-<div class="main-landing">
+<div class="main-landing" id="knowmore">
 	
 
     <LargeHeading beforeMarkedValue="What we" markedValue=" offer" afterMarkedValue="" textAlign="center"></LargeHeading>
@@ -56,14 +75,75 @@
     
     <Spacer></Spacer>
     <Spacer></Spacer>
+    
+    <div class="cards-holder">
+    
+        <div class="card">
+        
+            <InformationCard iconColor="#FF9A22" iconBackgroundColor="#453331" paragraphText="A couple of line about the feature will help the person understand better" headingText="Fast ingestion" imageURL="./images/fast-ingestion.svg"></InformationCard>
+        
+        </div>
+
+        <div class="card">
+        
+            <InformationCard iconColor="#B931FF" iconBackgroundColor="#421F5F" paragraphText="A couple of line about the feature will help the person understand better" headingText="Powerful query analysis" imageURL="./images/powerful-query-analysis.svg"></InformationCard>
+        
+        </div>
+    
+        {#if allFeatures===true}
+
+            <div class="card">
+        
+                <InformationCard iconColor="#FF424C" iconBackgroundColor="#442635" paragraphText="A couple of line about the feature will help the person understand better" headingText="Log indexing" imageURL="./images/log-indexing.svg"></InformationCard>
+            
+            </div>
+        
+            <div class="card">
+            
+                <InformationCard iconColor="#00A8B0" iconBackgroundColor="#1E2F3E" paragraphText="A couple of line about the feature will help the person understand better" headingText="Log tailing" imageURL="./images/log-tailing.svg"></InformationCard>
+            
+            </div>
+ 
+            <div class="card">
+            
+                <InformationCard iconColor="#00AF81" iconBackgroundColor="#16373D" paragraphText="A couple of line about the feature will help the person understand better" headingText="Cost efficient" imageURL="./images/cost-efficient.svg"></InformationCard>
+            
+            </div>
+
+            <div class="card">
+            
+                <InformationCard iconColor="#EB0098" iconBackgroundColor="#401D41" paragraphText="A couple of line about the feature will help the person understand better" headingText="Beautiful dashboard" imageURL="./images/beautiful-dashboard.svg"></InformationCard>
+            
+            </div>
+
+        {/if}
+
+    </div>
+
+    <Spacer></Spacer>
+    <Spacer></Spacer>
 
     <div class="buttons-group">
+
+        {#if allFeatures===false}
             
-        <div class="button">
-                
-            <ButtonHolder buttonText="See All Features" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage=""></ButtonHolder>
-                
-        </div>
+            <div class="button" on:click={allFeaturesToggle}>
+                    
+                <ButtonHolder buttonText="See All Features" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage=""></ButtonHolder>
+                    
+            </div>
+
+        {/if}
+
+        {#if allFeatures===true}
+            
+            <div class="button" on:click={allFeaturesToggle}>
+                    
+                <ButtonHolder buttonText="Show less features" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage=""></ButtonHolder>
+                    
+            </div>
+
+        {/if}
 
         <div class="button">
                 

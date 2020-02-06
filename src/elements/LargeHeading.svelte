@@ -15,7 +15,6 @@
         font-weight: 700;
         letter-spacing: 4.2px;
         color: #ffffff;
-        line-height: 80px;
         text-align: var(--textAlign);
     }
 

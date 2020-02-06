@@ -28,7 +28,8 @@
 
         .button{
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            margin-right: 0px;
         }
 
     }
@@ -37,7 +38,8 @@
 
         .button{
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            margin-right: 0px;
         }
 
     }

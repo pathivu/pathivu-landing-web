@@ -168,7 +168,11 @@
 
     <div class="bottom-button">
     
-        <ButtonHolder buttonText="Know More" backgroundColor="" textColor="#00A8B0" buttonImage="./images/down-arrow.svg"></ButtonHolder>
+        <a href="#knowmore">
+        
+            <ButtonHolder buttonText="Know More" backgroundColor="" textColor="#00A8B0" buttonImage="./images/down-arrow.svg"></ButtonHolder>
+        
+        </a>
     
     </div>
 
