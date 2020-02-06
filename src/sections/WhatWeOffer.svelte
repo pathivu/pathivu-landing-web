@@ -49,6 +49,11 @@
             margin-right: 0px;
         }
 
+        .card{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
     }
 
     @media(max-width:768px){
@@ -56,6 +61,11 @@
         .button{
             display: block;
             margin-bottom: 20px;
+            margin-right: 0px;
+        }
+
+        .card{
+            margin-left: 0px;
             margin-right: 0px;
         }
 
