@@ -81,7 +81,7 @@
 
 	<Spacer></Spacer>
 
-    <Paragraph content="Pathivu is powerful log ingestion and aggregation system. It's built from scratch by having cost-efficient and high write throughput in mind without trading log indexing."></Paragraph>
+    <Paragraph content="Pathivu is powerful log ingestion and aggregation system. It's built from scratch by having cost-efficient and high write throughput in mind without trading log indexing." textAlign="center"></Paragraph>
     
     <Spacer></Spacer>
     <Spacer></Spacer>

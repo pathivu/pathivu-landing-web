@@ -3,6 +3,7 @@
   import WhatWeOffer from "./sections/WhatWeOffer.svelte";
   import JoinTheCommunity from "./sections/JoinTheCommunity.svelte";
   import Spacer from "./elements/Spacer.svelte";
+  import BottomLanding from "./sections/BottomLanding.svelte";
 </script>
 
 <style>
@@ -39,5 +40,12 @@
   <Spacer />
 
   <JoinTheCommunity />
+
+  <Spacer />
+  <Spacer />
+  <Spacer />
+  <Spacer />
+
+  <BottomLanding />
 
 </div>

@@ -1,6 +1,7 @@
 <script>
 
     export let content;
+    export let textAlign;
 
 </script>
 
@@ -8,16 +9,14 @@
     
     div{
         font-size: 16px;
-        width: 85vw;
+        width: 85%;
         font-family: 'Rubik', sans-serif;
         font-weight: 300;
         letter-spacing: 1.8px;
         color: #ffffff;
         line-height: 30px;
-        text-align: var(--textAlign);
-        margin:auto auto;
         max-width: 800px;
-        text-align: center;
+        text-align: var(--textAlign);
     }
 
     span{
@@ -33,5 +32,15 @@
 
 </style>
 
-<div>{content}</div>
 
+
+{#if textAlign === 'left'}
+
+<div style="--textAlign:{textAlign};">{content}</div>
+
+{/if}
+
+{#if textAlign === 'center'}
+<div style="--textAlign:{textAlign};;margin:auto auto;">{content}</div>
+
+{/if}

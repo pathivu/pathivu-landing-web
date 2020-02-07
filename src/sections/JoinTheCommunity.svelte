@@ -24,6 +24,10 @@
         text-align: center;
     }
 
+    .para{
+        margin: auto auto;
+    }
+
     @media(max-width:1200px){
 
         .button{
@@ -54,7 +58,11 @@
 
 	<Spacer></Spacer>
 
-    <Paragraph content="We love the people who love us, come spread love <3"></Paragraph>
+    <div class="para">
+    
+        <Paragraph content="We love the people who love us, come spread love <3" textAlign="center"></Paragraph>
+    
+    </div>
     
     <Spacer></Spacer>
     <Spacer></Spacer>
