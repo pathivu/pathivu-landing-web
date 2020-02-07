@@ -10,7 +10,7 @@
     div{
         font-size: 16px;
         width: 85%;
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: 300;
         letter-spacing: 1.8px;
         color: #ffffff;

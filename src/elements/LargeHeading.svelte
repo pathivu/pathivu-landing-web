@@ -11,7 +11,7 @@
     
     div{
         font-size: 3.3vw;
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: 700;
         letter-spacing: 4.2px;
         color: #ffffff;

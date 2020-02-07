@@ -7,20 +7,20 @@
 </script>
 
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Rubik:300,700&display=swap");
+  @import url('https://fonts.googleapis.com/css?family=Nunito:300,700&display=swap');
 
   :global(body) {
     padding: 0px;
     margin: 0px;
     background: #191928;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Opera and Firefox */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
+
 </style>
 
 <div class="landing-holder">

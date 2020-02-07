@@ -25,7 +25,7 @@
         display: inline-block;
         border-radius: 4px;
         font-size: 18px;
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight: 300;
         letter-spacing: 1.2px;
         cursor: pointer;

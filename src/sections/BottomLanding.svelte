@@ -74,6 +74,10 @@
 
     @media(max-width:768px){
 
+        .bottom-landing{
+            height: auto;
+        }
+
         .right{
             width: 100%;
             height: 320px;
