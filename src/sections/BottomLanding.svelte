@@ -58,9 +58,9 @@
         position: relative;
         float: left;
         position: relative;
-        top: 100%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%,-100%);
+        transform: translate(-50%,-50%);
     }
 
     @media(max-width:1200px){
@@ -103,9 +103,12 @@
         }
 
         .laptop-landing{
+            width:60%;
+            height: auto;
+            position: relative;
             top: 0%;
-            left: 00%;
-            transform: translate(0%,0%);
+            left: 0%;
+            transform: translate(-0%,-0%);
         }
 
     }
@@ -117,7 +120,7 @@
 	
 	<div class="left">
     
-        <img class="laptop-landing" src="./images/laptop-landing.png" alt="">
+        <img class="laptop-landing" src="./images/phone-pathivu.png" alt="">
     
     </div>
 
