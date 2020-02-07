@@ -20,8 +20,6 @@
         showAllOption = false;
     }
 
-    console.log(mq.matches);
-
 </script>
 
 <style>

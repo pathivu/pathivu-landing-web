@@ -78,6 +78,25 @@
         top:50%;
         transform: translateY(-50%); 
     }
+
+    @media(max-width:600px){
+        .text-holder{
+            width: 220px;
+        }
+
+        .holder{
+            width: 300px;
+        }
+
+        .icon-part{
+            left: 0px;
+            margin: auto auto;
+        }
+
+        h1,p{
+            text-align: center;
+        }
+    }
     
 
 </style>

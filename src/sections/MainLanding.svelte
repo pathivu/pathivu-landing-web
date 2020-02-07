@@ -4,6 +4,8 @@
     import ButtonHolder from '../elements/ButtonHolder.svelte';
     import Spacer from '../elements/Spacer.svelte';
 
+    const mq = window.matchMedia("(min-width:768px)");
+
 </script>
 
 <style>
@@ -103,7 +105,9 @@
 
         .button{
             display: block;
+            margin: auto auto;
             margin-bottom: 15px;
+            text-align:center;
         }
 
         .holder{
@@ -113,12 +117,17 @@
 
         img{
             height: 45px;
+            position: relative;
+            left:50%;
+            transform: translateX(-50%);
         }
 
         .laptop-landing{
-            height: 100%;
+            height: 90%;
             width: auto;
             top: 20%;
+            margin:auto auto;
+            float: none;
         }
 
     }
@@ -162,7 +171,17 @@
 
     <div class="right">
     
-        <img class="laptop-landing" src="./images/laptop-landing.png" alt="">
+        {#if mq.matches===true}
+
+            <img class="laptop-landing" src="./images/laptop-landing.png" alt="">
+
+        {/if}
+
+        {#if mq.matches===false}
+
+            <img class="laptop-landing" src="./images/laptop-landing-mobile.png" alt="">
+
+        {/if}
     
     </div>
 

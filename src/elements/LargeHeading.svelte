@@ -26,6 +26,7 @@
         div{
             font-size: 20px;
             line-height: 40px;
+            text-align: center;
         }
     }
 

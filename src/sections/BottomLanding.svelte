@@ -67,6 +67,7 @@
 
         .button{
             display: block;
+            text-align: center;
             margin-bottom: 15px;
         }
 
@@ -90,6 +91,7 @@
 
         .button{
             display: block;
+            text-align: center;
             margin-bottom: 15px;
         }
 
@@ -107,8 +109,8 @@
             height: auto;
             position: relative;
             top: 0%;
-            left: 0%;
-            transform: translate(-0%,-0%);
+            left: 50%;
+            transform: translate(-50%,-0%);
         }
 
     }
