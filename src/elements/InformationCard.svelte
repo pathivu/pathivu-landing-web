@@ -86,6 +86,7 @@
 
         .holder{
             width: 300px;
+            height: 300px;
         }
 
         .icon-part{
@@ -99,6 +100,7 @@
 
         h1{
             line-height: 30px;
+            font-size: 14px;
         }
     }
     
