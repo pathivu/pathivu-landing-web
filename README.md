@@ -12,11 +12,11 @@ The web page is built on a structure that uses custom sections and each section 
 
 All files are Svelte based and they can be imported into another svelte page to be used as elements. For example
 
-`import ELementName from "./elements/ElementName.svelte"`
+`import ElementName from "./elements/ElementName.svelte"`
 
-this helps you use the element in the svelte file as elements or even sections. Each element has it's own properties that can be passed to make sure that no specific customization is needed. For Example
+This helps you use the element in the svelte file as elements or even sections. Each element has it's own properties that can be passed to make sure that no specific customization is needed. For Example
 
-`<ElementName propertName="PropertyValue" />`
+`<ElementName propertyName="PropertyValue" />`
 
 
 ## What custom elements can you use?
