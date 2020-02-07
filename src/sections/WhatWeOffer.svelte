@@ -7,10 +7,20 @@
     import InformationCard from '../elements/InformationCard.svelte';
 
     let allFeatures = false;
+    let showAllOption = true;
 
     function allFeaturesToggle(event) {
         allFeatures = !allFeatures;
     }
+
+    const mq = window.matchMedia("(min-width:768px)");
+
+    if(mq.matches===true){
+        allFeatures = true;
+        showAllOption = false;
+    }
+
+    console.log(mq.matches);
 
 </script>
 
@@ -50,8 +60,8 @@
         }
 
         .card{
-            margin-left: 0px;
-            margin-right: 0px;
+            margin-left: 40px;
+            margin-right: 40px;
         }
 
     }
@@ -135,23 +145,27 @@
 
     <div class="buttons-group">
 
-        {#if allFeatures===false}
+        {#if showAllOption === true}
+
+            {#if allFeatures===false}
             
-            <div class="button" on:click={allFeaturesToggle}>
-                    
-                <ButtonHolder buttonText="See All Features" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage=""></ButtonHolder>
-                    
-            </div>
+                <div class="button" on:click={allFeaturesToggle}>
+                        
+                    <ButtonHolder buttonText="See All Features" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage=""></ButtonHolder>
+                        
+                </div>
+
+            {/if}
+
+            {#if allFeatures===true}
+                
+                <div class="button" on:click={allFeaturesToggle}>
+                        
+                    <ButtonHolder buttonText="Show less features" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage="" action="#"></ButtonHolder>
+                        
+                </div>
 
         {/if}
-
-        {#if allFeatures===true}
-            
-            <div class="button" on:click={allFeaturesToggle}>
-                    
-                <ButtonHolder buttonText="Show less features" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage=""></ButtonHolder>
-                    
-            </div>
 
         {/if}
 
