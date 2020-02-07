@@ -96,6 +96,10 @@
         h1,p{
             text-align: center;
         }
+
+        h1{
+            line-height: 30px;
+        }
     }
     
 
