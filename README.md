@@ -1,93 +1,146 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# Pathivu Landing Web
 
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+A svelte program that is used to build the landing page for [Pathivu](https://github.com/pathivu/pathivu)
 
 
-## Get started
 
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+## What is the structure?
+The web page is built on a structure that uses custom sections and each section uses multiple elements. 
 
 
-## Building and running in production mode
+### So how does it work?
 
-To create an optimised version of the app:
+All files are Svelte based and they can be imported into another svelte page to be used as elements. For example
 
-```bash
-npm run build
-```
+`import ELementName from "./elements/ElementName.svelte"`
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+this helps you use the element in the svelte file as elements or even sections. Each element has it's own properties that can be passed to make sure that no specific customization is needed. For Example
 
-
-## Single-page app mode
-
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
-
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
-
-```js
-"start": "sirv public --single"
-```
+`<ElementName propertName="PropertyValue" />`
 
 
-## Deploying to the web
+## What custom elements can you use?
 
-### With [now](https://zeit.co/now)
+* ### ButtonHolder
+    
+    Create buttons with ease, For Example
 
-Install `now` if you haven't already:
+    `<ButtonHolder buttonText="Try Now" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage="./images/right-arrow.svg" action="https://dashboard.pathivu.io" />`
 
-```bash
-npm install -g now
-```
+    [View Example](./imagesForReadme/ButtonHolder.png)
 
-Then, from within your project folder:
+    ##### Properties you can pass
+    
+    1. buttonText
+        ###### This is the text on the button.
 
-```bash
-cd public
-now deploy --name my-project
-```
+    2. backgroundColor 
+        ###### This is the background colour of the button
 
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
+    3. textColor
+        ###### This is the color of the text in the button
 
-### With [surge](https://surge.sh/)
+    4. buttonImage
+        ###### If the button has an image next to the text then you can link it here, can be url or a local link to the image. If no image then leave this blank.
+    
+    5. action
+        ###### You can create a link that should be open on the click of the button.
 
-Install `surge` if you haven't already:
+* ### Paragraph
+    
+    Create buttons with ease, For Example
 
-```bash
-npm install -g surge
-```
+    `<Paragraph content="We love the people who love us, come spread love <3" alignText="center" />`
 
-Then, from within your project folder:
+    [View Example](./imagesForReadme/Paragraph.png)
 
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+    ##### Properties you can pass
+    
+    1. content
+        ###### This is the text in the Paragraph
+
+    2. alignText 
+        ###### This can have multiple values link center, justified, left and right.   
+
+* ### LargeHeading
+    
+    Create buttons with ease, For Example
+
+    `<LargeHeading beforeMarkedValue="The only" markedValue="logging" afterMarkedValue="platform you need" alignText="left" />`
+
+    [View Example](./imagesForReadme/LargeHeading.png)
+
+    ##### Properties you can pass
+
+    ###### Headings have a feature of changing colour of a certain part to highlight. 
+    
+    1. beforeMarkedValue
+        ###### Anything before highlighted word comes here.
+
+    2. markedValue
+        ###### Your highlighted work or part is this.
+
+    3. afterMarkedValue
+        ###### Anything after the highlighted comes here.
+
+    4. alignText 
+        ###### This can have multiple values link center, justified, left and right. 
+
+* ### InformationCard
+    
+    Create buttons with ease, For Example
+
+    ` <InformationCard iconColor="#00A8B0" iconBackgroundColor="#1E2F3E" paragraphText="A couple of line about the feature will help the person understand better" headingText="Log tailing" imageURL="./images/log-tailing.svg" />`
+
+    [View Example](./imagesForReadme/InformationCard.png)
+
+    ##### Properties you can pass
+
+    ###### Headings have a feature of changing colour of a certain part to highlight. 
+    
+    1. iconColor
+        ###### This is the color of the icon and also the color of the heading.
+
+    2. markedValue
+        ###### This is the background color of the icon holder box.
+
+    3. paragraphText
+        ###### This is the content that comes under the heading of the card.
+
+    4. headingText
+        ###### This is the content that comes in the heading of the card.
+
+    5. imageURL
+        ###### This is the image that is inside the icon holder, or basically this is the icon. Link a web link or a local link.
+
+
+## How does the compiling work?
+
+Well it's fairly simple, clone the repository using the command
+
+`git clone git@github.com:pathivu/pathivu-landing-web.git`
+
+and cd into the repository folder
+
+`cd pathivu-landing-web`
+
+Now comes the svelte part, you start of with initialising all the files so that you can run the testing part.
+
+`npm install`
+
+Get started with development.
+
+
+## How to test and deploy?
+
+While developing just run, you will have auto refreshing sysetm deployed to localhost:5000
+
+`npm run dev`
+
+You can deploy on netlify by pointing to public folder and giving the command to run as npm run build.
+
+Or if you want to take the local files to your server directly, just run
+
+`npm run build`
+
+and your files will be in the public folder, compiled.
