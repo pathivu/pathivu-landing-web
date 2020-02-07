@@ -4,10 +4,15 @@
     export let textColor;
     export let buttonText;
     export let buttonImage;
+    export let action;
 
 </script>
 
 <style>
+
+    a{
+        text-decoration: none;
+    }
     
     div{
         background: var(--buttonBackground);
@@ -47,9 +52,13 @@
 
 </style>
 
-<div style="--buttonBackground:{backgroundColor};--textColor:{textColor};">
+<a href="{action}">
 
-    {buttonText} {#if buttonImage!=""}<img src="{buttonImage}" alt="">{/if}
-    
-</div>
+    <div style="--buttonBackground:{backgroundColor};--textColor:{textColor};">
+
+        {buttonText} {#if buttonImage!=""}<img src="{buttonImage}" alt="">{/if}
+        
+    </div>
+
+</a>
 

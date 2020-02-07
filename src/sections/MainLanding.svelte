@@ -144,13 +144,13 @@
             
                 <div class="button">
                 
-                    <ButtonHolder buttonText="Try Now" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage="./images/right-arrow.svg"></ButtonHolder>
+                    <ButtonHolder buttonText="Try Now" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage="./images/right-arrow.svg" action="https://dashboard.pathivu.io"></ButtonHolder>
                 
                 </div>
 
                 <div class="button">
                 
-                    <ButtonHolder buttonText="View On GitHub" backgroundColor="#2F2F3D" textColor="#FFFFFF" buttonImage="./images/github.svg"></ButtonHolder>
+                    <ButtonHolder buttonText="View On GitHub" backgroundColor="#2F2F3D" textColor="#FFFFFF" buttonImage="./images/github.svg" action="https:/github.com/pathivu/pathivu"></ButtonHolder>
                 
                 </div>
 

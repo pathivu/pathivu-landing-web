@@ -18,13 +18,11 @@
 	}
 
     .left{
-        height: auto;
+        height: 100%;
         width: 44%;
         position: relative;
-        top: 0px;
-        left: 0vw;
-        margin-left: 7vw;
         display: inline-block;
+        overflow: hidden;
     }
 
     .right{
@@ -58,8 +56,11 @@
         width: 80%;
         height: auto;
         position: relative;
-        top: 15%;
         float: left;
+        position: relative;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,-100%);
     }
 
     @media(max-width:1200px){
@@ -69,27 +70,18 @@
             margin-bottom: 15px;
         }
 
-        .laptop-landing{
-            top: 30%;
-        }
-
     }
 
     @media(max-width:768px){
 
         .right{
-            height: 25%;
             width: 100%;
+            height: 320px;
         }
 
         .left{
-            width: 86vw;
+            width: 100%;
             height: auto;
-            top: 30%;
-            left: 0px;
-            margin-left: 0px;
-            padding-left: 7vw;
-            padding-right: 7vw;
         }
 
         .button{
@@ -107,9 +99,9 @@
         }
 
         .laptop-landing{
-            height: 100%;
-            width: auto;
-            top: 20%;
+            top: 0%;
+            left: 00%;
+            transform: translate(0%,0%);
         }
 
     }
@@ -141,13 +133,13 @@
             
                 <div class="button">
                 
-                    <ButtonHolder buttonText="View Blog" backgroundColor="#453331" textColor="#FF9A22" buttonImage=""></ButtonHolder>
+                    <ButtonHolder buttonText="View Blog" backgroundColor="#453331" textColor="#FF9A22" buttonImage="" action="https://blog.pathivu.io/"></ButtonHolder>
                 
                 </div>
 
                 <div class="button">
                 
-                    <ButtonHolder buttonText="Subscribe to newsletter" backgroundColor="#16373D" textColor="#00AF81" buttonImage=""></ButtonHolder>
+                    <ButtonHolder buttonText="Subscribe to newsletter" backgroundColor="#16373D" textColor="#00AF81" buttonImage="" action="https://newsletter.pathivu.io"></ButtonHolder>
                 
                 </div>
 

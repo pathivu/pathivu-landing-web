@@ -71,19 +71,19 @@
             
         <div class="button">
                 
-            <ButtonHolder buttonText="See All Features" backgroundColor="#252941" textColor="#7289DA" buttonImage="./images/discord.svg"></ButtonHolder>
+            <ButtonHolder buttonText="Join the channel" backgroundColor="#252941" textColor="#7289DA" buttonImage="./images/discord.svg" action="https://discordapp.com/invite/m5hZbPv"></ButtonHolder>
                 
         </div>
 
         <div class="button">
                 
-            <ButtonHolder buttonText="Follow Us" backgroundColor="#19273D" textColor="#1DA1F2" buttonImage="./images/twitter.svg"></ButtonHolder>
+            <ButtonHolder buttonText="Follow us" backgroundColor="#19273D" textColor="#1DA1F2" buttonImage="./images/twitter.svg" action="https://www.twitter.com/PathivuHQ"></ButtonHolder>
                 
         </div>
 
         <div class="button">
                 
-            <ButtonHolder buttonText="View On GitHub" backgroundColor="#2F2F3D" textColor="#FFFFFF" buttonImage="./images/github.svg"></ButtonHolder>
+            <ButtonHolder buttonText="View On GitHub" backgroundColor="#2F2F3D" textColor="#FFFFFF" buttonImage="./images/github.svg" action="https://www.github.com/pathivu/pathivu"></ButtonHolder>
                 
         </div>
 

@@ -157,7 +157,7 @@
 
         <div class="button">
                 
-            <ButtonHolder buttonText="Read about them on our blog" backgroundColor="#453331" textColor="#FF9A22" buttonImage=""></ButtonHolder>
+            <ButtonHolder buttonText="Read about them on our blog" backgroundColor="#453331" textColor="#FF9A22" buttonImage="" action="https://blog.pathivu.io"></ButtonHolder>
                 
         </div>
 
