@@ -148,7 +148,7 @@
 
                 <div class="button">
                 
-                    <ButtonHolder buttonText="Subscribe to newsletter" backgroundColor="#16373D" textColor="#00AF81" buttonImage="" action="https://newsletter.pathivu.io"></ButtonHolder>
+                    <ButtonHolder buttonText="Subscribe to newsletter" backgroundColor="#16373D" textColor="#00AF81" buttonImage="" action="https://forms.gle/V8QWmA7TYx1WfrFf7"></ButtonHolder>
                 
                 </div>
 

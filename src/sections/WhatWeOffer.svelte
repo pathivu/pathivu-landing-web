@@ -98,13 +98,13 @@
     
         <div class="card">
         
-            <InformationCard iconColor="#FF9A22" iconBackgroundColor="#453331" paragraphText="A couple of line about the feature will help the person understand better" headingText="Fast ingestion" imageURL="./images/fast-ingestion.svg"></InformationCard>
+            <InformationCard iconColor="#FF9A22" iconBackgroundColor="#453331" paragraphText="Pathivu can scale up to TB's of data." headingText="Fast ingestion" imageURL="./images/fast-ingestion.svg"></InformationCard>
         
         </div>
 
         <div class="card">
         
-            <InformationCard iconColor="#B931FF" iconBackgroundColor="#421F5F" paragraphText="A couple of line about the feature will help the person understand better" headingText="Powerful query analysis" imageURL="./images/powerful-query-analysis.svg"></InformationCard>
+            <InformationCard iconColor="#B931FF" iconBackgroundColor="#421F5F" paragraphText="Debug your issue like a sherlock with the powerful query." headingText="Powerful query analysis" imageURL="./images/powerful-query-analysis.svg"></InformationCard>
         
         </div>
     
@@ -112,25 +112,25 @@
 
             <div class="card">
         
-                <InformationCard iconColor="#FF424C" iconBackgroundColor="#442635" paragraphText="A couple of line about the feature will help the person understand better" headingText="Log indexing" imageURL="./images/log-indexing.svg"></InformationCard>
+                <InformationCard iconColor="#FF424C" iconBackgroundColor="#442635" paragraphText="Be it structured or unstructured, you get what you need." headingText="Log indexing" imageURL="./images/log-indexing.svg"></InformationCard>
             
             </div>
         
             <div class="card">
             
-                <InformationCard iconColor="#00A8B0" iconBackgroundColor="#1E2F3E" paragraphText="A couple of line about the feature will help the person understand better" headingText="Log tailing" imageURL="./images/log-tailing.svg"></InformationCard>
+                <InformationCard iconColor="#00A8B0" iconBackgroundColor="#1E2F3E" paragraphText="Tail your logs in realtime to get the status of the application." headingText="Log tailing" imageURL="./images/log-tailing.svg"></InformationCard>
             
             </div>
  
             <div class="card">
             
-                <InformationCard iconColor="#00AF81" iconBackgroundColor="#16373D" paragraphText="A couple of line about the feature will help the person understand better" headingText="Cost efficient" imageURL="./images/cost-efficient.svg"></InformationCard>
+                <InformationCard iconColor="#00AF81" iconBackgroundColor="#16373D" paragraphText="Pathivu saves disk space by compressing the indexes, and use less CPU and memory with the help of minimal RUST runtime." headingText="Cost efficient" imageURL="./images/cost-efficient.svg"></InformationCard>
             
             </div>
 
             <div class="card">
             
-                <InformationCard iconColor="#EB0098" iconBackgroundColor="#401D41" paragraphText="A couple of line about the feature will help the person understand better" headingText="Beautiful dashboard" imageURL="./images/beautiful-dashboard.svg"></InformationCard>
+                <InformationCard iconColor="#EB0098" iconBackgroundColor="#401D41" paragraphText="Our beautiful dashboard allows to debug the problem by visualizing the log." headingText="Beautiful dashboard" imageURL="./images/beautiful-dashboard.svg"></InformationCard>
             
             </div>
 

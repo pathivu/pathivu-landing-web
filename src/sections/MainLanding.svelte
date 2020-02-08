@@ -145,17 +145,11 @@
 
             <Spacer></Spacer>
         
-            <LargeHeading beforeMarkedValue="The only" markedValue=" logging" afterMarkedValue=" platform you need" textAlign="left"></LargeHeading>
+            <LargeHeading beforeMarkedValue="An" markedValue=" efficient" afterMarkedValue=" log aggregation system" textAlign="left"></LargeHeading>
 
             <Spacer></Spacer>
 
             <div class="buttons-group">
-            
-                <div class="button">
-                
-                    <ButtonHolder buttonText="Try Now" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage="./images/right-arrow.svg" action="https://dashboard.pathivu.io"></ButtonHolder>
-                
-                </div>
 
                 <div class="button">
                 
