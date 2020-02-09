@@ -153,7 +153,11 @@
                     <ButtonHolder buttonText="View On GitHub" backgroundColor="#2F2F3D" textColor="#FFFFFF" buttonImage="./images/github.svg" action="https://github.com/pathivu/pathivu"></ButtonHolder>
                 
                 </div>
+                <div class="button">
 
+                    <ButtonHolder buttonText="Docs" backgroundColor="#1E2F3E" textColor="#00A8B0" buttonImage="./images/right-arrow.svg" action="https://docs.pathivu.io"></ButtonHolder>
+
+                </div>
             </div>
         
         </div>
