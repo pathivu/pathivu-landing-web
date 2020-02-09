@@ -85,7 +85,7 @@
 <div class="main-landing" id="knowmore">
 	
 
-    <LargeHeading beforeMarkedValue="What we" markedValue=" offer" afterMarkedValue="" textAlign="center"></LargeHeading>
+    <LargeHeading beforeMarkedValue="Features" markedValue="" afterMarkedValue="" textAlign="center"></LargeHeading>
 
 	<Spacer></Spacer>
 

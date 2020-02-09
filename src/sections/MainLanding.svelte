@@ -3,11 +3,8 @@
     import LargeHeading from '../elements/LargeHeading.svelte';
     import ButtonHolder from '../elements/ButtonHolder.svelte';
     import Spacer from '../elements/Spacer.svelte';
-
     const mq = window.matchMedia("(min-width:768px)");
-
 </script>
-
 <style>
 
     .main-landing{
@@ -153,7 +150,7 @@
 
                 <div class="button">
                 
-                    <ButtonHolder buttonText="View On GitHub" backgroundColor="#2F2F3D" textColor="#FFFFFF" buttonImage="./images/github.svg" action="https:/github.com/pathivu/pathivu"></ButtonHolder>
+                    <ButtonHolder buttonText="View On GitHub" backgroundColor="#2F2F3D" textColor="#FFFFFF" buttonImage="./images/github.svg" action="https://github.com/pathivu/pathivu"></ButtonHolder>
                 
                 </div>
 

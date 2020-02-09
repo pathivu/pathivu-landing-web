@@ -5,7 +5,15 @@
   import Spacer from "./elements/Spacer.svelte";
   import BottomLanding from "./sections/BottomLanding.svelte";
 </script>
-
+<svelte:head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86753026-3"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-86753026-3');
+      </script>
+</svelte:head>
 <style>
   @import url('https://fonts.googleapis.com/css?family=Nunito:300,700&display=swap');
 
